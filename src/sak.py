@@ -4,3 +4,6 @@ class sak:
         self.title = title
         self.beskrivelse = beskrivelse
         self.dato = dato
+
+def opprettEinSak():
+    pass
