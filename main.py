@@ -1,4 +1,4 @@
-from src.sak import *
+from src.cmd import *
 
 while True:
     cmd = input(">")
