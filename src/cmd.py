@@ -8,5 +8,3 @@ def opprettEinNySakKommando():
     prioritetsvalg = pick.pick(['1', '2', '3', '4', '5'], 'Velg prioritetsnivå fra 1(notering) til 5(kritisk): ')
 
     Saksliste.append(sak(prioritetsvalg[1] + 1, title, beskrivelse, datetime.date.today()))
-
-opprettEinNySakKommando()
