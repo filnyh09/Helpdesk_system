@@ -1,5 +1,5 @@
 import datetime, pick
-from sak import *
+from src.sak import *
 
 def opprettEinNySakKommando():
     title = input("Title på saken: ")
